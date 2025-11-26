@@ -60,7 +60,6 @@ Build status badge:
 
 [![CI](https://github.com/Icey067/KOrunner-Android/actions/workflows/android-ci.yml/badge.svg)](https://github.com/Icey067/KOrunner-Android/actions/workflows/android-ci.yml)
 
-If you want additional automated checks (e.g., code scanning, dependency updates), consider enabling GitHub Dependabot and CodeQL under the repository settings.
 
 ## Contributing
 
@@ -68,7 +67,6 @@ If you want additional automated checks (e.g., code scanning, dependency updates
 - Keep changes focused and add/update tests where applicable.
 - Run `./gradlew check` before submitting a PR.
 
-If you want a PR template or `CONTRIBUTING.md`, I can add one.
 
 ## Project Layout
 
@@ -77,7 +75,7 @@ If you want a PR template or `CONTRIBUTING.md`, I can add one.
 
 ## License
 
-This repository does not include a license file. If you'd like, I can add an MIT or Apache-2.0 license. Please tell me which license you prefer.
+This repository contains Apache-2.0 license.
 
 ## Contact
 
