@@ -1,82 +1,41 @@
-# KOrunner-Android
+# KOrunner 🏃‍♂️💨
 
-KOrunner-Android is a lightweight Android project for running Kotlin-based utilities and experiments.
+KOrunner is a lightweight, custom-built endless runner game for Android, written entirely in Kotlin. It demonstrates how to create a performant 2D game using standard Android APIs without relying on heavy external game engines.
 
-## Overview
+## 🎮 Overview
 
-This repository contains an Android app module written in Kotlin, Gradle configuration, and unit tests. It is intended as a starting point for experiments and small utilities.
+The player controls a duck that must jump over mushroom obstacles to survive. The game features a custom game loop, physics-based movement, and dynamic rendering using the Android `Canvas` and `SurfaceView`.
 
-## Features
+## ✨ Features
 
-- Simple Kotlin Android app structure
-- Gradle build configuration
-- Unit tests and lint checks
+*   **Three Difficulty Levels**: Choose between Easy, Medium, and Hard modes to test your reflexes.
+*   **Custom Game Engine**: Built from scratch using `SurfaceView` for optimized performance (60 FPS target).
+*   **Procedural Generation**: Obstacles and clouds are generated algorithmically for endless replayability.
+*   **Physics System**: Implements gravity, velocity, and collision detection.
+*   **Immersive Experience**: Full-screen mode with hidden system UI.
 
-## Quick Start
+## 🛠 Tech Stack
 
-Prerequisites:
+*   **Language**: Kotlin
+*   **UI/Rendering**: Android SDK (`SurfaceView`, `Canvas`, `Paint`)
+*   **Architecture**: Custom Game Loop
+*   **Minimum SDK**: API 31
 
-- JDK 11 (recommended)
-- Android SDK (via Android Studio or `sdkmanager`)
-- A device or emulator to install the debug build
+## 🚀 Getting Started
 
-Clone the repository:
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/Icey067/KOrunner-Android.git
+    ```
+2.  **Open in Android Studio**.
+3.  **Build and Run**: Connect your Android device or start an emulator and run the app.
 
-```bash
-git clone https://github.com/Icey067/KOrunner-Android.git
-cd KOrunner-Android
-```
+## 🕹 How to Play
 
-Open the project in Android Studio (recommended) or build from the command line:
+*   **Tap any button** on the menu to navigate.
+*   **Tap the screen** while playing to **JUMP**.
+*   Avoid the mushrooms and survive as long as possible!
 
-```bash
-./gradlew clean assembleDebug
-```
+## 📜 License
 
-Install to a connected device (debug build):
-
-```bash
-./gradlew installDebug
-```
-
-Run unit tests locally:
-
-```bash
-./gradlew testDebugUnitTest
-```
-
-Run lint and checks:
-
-```bash
-./gradlew lint
-./gradlew check
-```
-
-## Continuous Integration
-
-This repository includes a GitHub Actions workflow at `.github/workflows/android-ci.yml` that runs on pushes and pull requests. The workflow performs a Gradle build, runs unit tests and lint to provide automated review feedback on PRs.
-
-Build status badge:
-
-[![CI](https://github.com/Icey067/KOrunner-Android/actions/workflows/android-ci.yml/badge.svg)](https://github.com/Icey067/KOrunner-Android/actions/workflows/android-ci.yml)
-
-
-## Contributing
-
-- Fork the repository and open a pull request for changes.
-- Keep changes focused and add/update tests where applicable.
-- Run `./gradlew check` before submitting a PR.
-
-
-## Project Layout
-
-- `app/` — Android app module
-- `gradle/` — Gradle config and version catalogs
-
-## License
-
-This repository contains Apache-2.0 license.
-
-## Contact
-
-Maintainer: `Icey067` — open issues or PRs on the repository.
+This project is licensed under the Apache-2.0 License.
